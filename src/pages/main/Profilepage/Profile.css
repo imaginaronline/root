@@ -1,0 +1,257 @@
+.forminputt {
+    width: 80% !important;
+    border: 1px solid rgba(96, 78, 176, 1) !important;
+}
+
+label.form-label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.labelspanred {
+    color: red;
+}
+
+.profpic {
+    width: 170px;
+    height: 170px;
+}
+
+.gendetab {
+    display: block;
+}
+
+.checks {
+    display: flex;
+    margin-top: 10px;
+}
+.dropDownLabel{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 4px;
+}
+.femchek {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.femcheck {
+    padding-left: 40px;
+}
+.profilepic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profileClick{
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+    color: #6c56bc;
+}
+.profileClick:hover {
+    color: #474a87;
+}
+
+button.savebtn.btn.btn-primary {
+    background: rgba(39, 94, 144, 1);
+    padding: 10px 60px;
+    border-color: rgba(39, 94, 144, 1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-right: 13px; */
+    font-size: 15px;
+    font-weight: 600;
+    float: right;
+    margin-right: 10%;
+}
+
+.address {
+    height: 180px;
+    border-radius: 4px;
+}
+
+input.formname.form-control {
+    width: 80% !important;
+    border: 1px solid rgba(96, 78, 176, 1) !important;
+}
+
+input.formmobile.form-control {
+    width: 80% !important;
+    border: 1px solid rgba(96, 78, 176, 1) !important;
+}
+
+.form-check-input {
+    width: 1.2em !important;
+    height: 1.2em !important;
+    border: 1px solid rgba(96, 78, 176, 1) !important;
+}
+
+.foredit {
+    position: relative;
+}
+
+.foredit a {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    position: absolute;
+    top: 5px;
+    right: 80px;
+    color: rgba(108, 86, 188, 1);
+}
+
+.forminputtpin {
+    width: 58% !important;
+    border: 1px solid rgba(96, 78, 176, 1) !important;
+}
+
+.forminputtcity {
+    width: 90% !important;
+    border: 1px solid rgba(96, 78, 176, 1) !important;
+}
+
+.newinput {
+    width: 80%;
+    padding: 6px;
+    border: 1px solid rgba(96, 78, 176, 1) !important;
+    border-radius: 4px;
+}
+
+.genderchecks {
+    display: flex;
+    gap: 4px;
+}
+
+/* input[type=checkbox] {
+    width: 1.2em !important;
+    height: 1.2em !important;
+    border: 1px solid rgba(96, 78, 176, 1) !important;
+} */
+
+label.profilelabl {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.profilechcks {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.errrmsg {
+    color: red;
+}
+
+a.mobileedit {
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+.edtmblbtn{
+    background: rgba(39, 94, 144, 1)  !important;
+    padding: 4px 16px !important;
+    border-color: rgba(39, 94, 144, 1) !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    float: right !important;
+    width: 95px !important;
+    margin-left: 27% !important;
+}
+
+.uploadImgCard{
+    min-height: 200px;
+    width: 300px;
+    /* border: 1px solid #fff;
+    box-shadow: 10px 2px 40px 10px; */
+    position: relative;
+    top: 26px;
+}
+.enterAmountForm{
+    position: absolute;
+    top: 42px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.uploadInput{
+    font-size: 14px;
+    border: 1px solid #384567;
+    width: 96%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.uploadButton{
+    width: 50%;
+    border: 1px solid #6e85b6;
+    position: absolute;
+    top: 94px;
+    left: 70px;
+    font-size: 14px;
+    border-radius: 16px;
+    background-color: #384567;
+    color: #fff;
+}
+.error_message{
+    font-size: 14px;
+    color: red;
+    padding: 4px;
+}
+@media screen and (max-width: 1680px) {
+    .foredit a {
+        right: 50px !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .profilerow {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    button.savebtn.btn.btn-primary {
+        background: rgba(39, 94, 144, 1);
+        padding: 10px 40px;
+        border-color: rgba(39, 94, 144, 1);
+        float: right;
+    }
+
+    .foredit a {
+        right: 20px !important;
+    }
+
+    .forminputt {
+        width: 100% !important;
+    }
+
+    button.savebtn.btn.btn-primary {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .forminputtpin {
+        width: 100% !important;
+    }
+
+    .forminputtcity {
+        width: 100% !important;
+    }
+
+    .gendetab {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .foredit a {
+        right: 20px !important;
+    }
+}

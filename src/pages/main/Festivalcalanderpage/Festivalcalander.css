@@ -1,0 +1,93 @@
+.ownhtwo{
+    font-size: 88px;
+    margin-right: 23px;
+    font-weight: 400 !important;
+    color: #081456 !important;
+}
+
+.ownp {
+    font-size: 24px;
+    color: #5f5f5f !important;
+    font-weight: 500;
+    margin-right: 25px!important;
+    margin-top: -9px!important;
+}
+
+.newscard {
+    padding: 3rem 1.5rem 2rem;
+    min-height: auto;
+    border-left: 10px solid rgba(39, 123, 200, 1);
+}
+/* 
+.verline {
+    border-left: 6px solid green;
+    height: 100%;
+    float: left;
+} */
+
+.datecontnt {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    text-align: center;
+}
+
+.schedulebtn {
+    background-color: #2751BC;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.schedulerow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.seedetailsp {
+    font-size: 18px;
+    color: #787878;
+    cursor: pointer;
+}
+
+.vertline {
+    width: 2px;
+    height: 146px;
+    background: rgba(156, 129, 129, 0.5);
+    float: left;
+    position: absolute;
+    left: -22px;
+}
+
+.festival {
+    position: relative;
+}
+@media screen and (max-width: 768px) {
+    .schedulerow {
+        text-align: center;
+        padding-top: 30px;
+        flex-direction: column;
+    }
+
+    .datecontnt {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .verline {
+        display: none;
+    }
+
+    .festival ,.seedetls {
+        padding-top: 20px;
+    }
+
+    .schedulebtn{
+        padding: 0.6em 1.2em !important;
+    }
+}

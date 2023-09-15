@@ -1,0 +1,153 @@
+.nav-item {
+    color: #6d6769;
+    width: 182px;
+    height: 36px;
+    top: 330px;
+    left: 523px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.nav-item1 {
+    width: 122px;
+    height: 36px;
+    top: 330px;
+    background-color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0F0A4A;
+    border-radius: 3px;
+}
+
+.nav-tabs .nav-link {
+    border: 0px !important;
+}
+
+.row1 {
+    background: #e0dcf1;
+    border-left: 1px solid red;
+
+}
+
+.row2 {
+
+    background: #def0e7;
+
+}
+
+.row3 {
+    background: #e4dcc0;
+
+}
+
+.row4 {
+    background: #eed4e4;
+
+}
+
+.row5 {
+    background: rgb(228, 212, 205);
+}
+
+.tableborder {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    text-align: center;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: transparent !important;
+}
+
+.tab-content>.active {
+    display: block;
+    height: 100vh;
+}
+
+.table-primary:active {
+    --bs-table-bg: rgb(222, 214, 253) !important;
+}
+.table-success:active {
+    --bs-table-bg: rgb(218, 252, 236) !important;
+}
+.table-warning:active {
+    --bs-table-bg: rgb(253, 244, 209) !important;
+}
+
+.thblue{
+    border-left: 4px solid #3000F1;
+    padding: 5px;
+}
+.thgreen{
+    border-left: 4px solid #07B360;
+    padding: 5px;
+}
+.thbrown {
+    border-left: 4px solid #F4D569;
+    padding: 5px;
+}
+
+th,td{
+    padding: 0px !important;
+}
+
+td div,th div{
+    padding: 7px !important;
+}
+
+div#noanim-tab-example-tabpane-donations {
+    height: 100vh;
+}
+
+div#noanim-tab-example-tabpane-seva {
+    height: 100vh;
+}
+.tableborder{
+    border-color: #FFFFFF !important;
+}
+
+.thead-dark th{
+    color: rgba(92, 75, 170, 1) !important;
+    font-size: 15px;
+}
+tr{
+    font-weight: 600 !important;
+}
+.centered-cell {
+    vertical-align: middle;
+  }
+/* .reporttabs {
+    margin: 14px;
+    background: white;
+    border-radius: 10px;
+}
+
+button#noanim-tab-example-tab-donations {
+    background: #ddd;
+    border-radius: 10px 0px 0px 0px;
+}
+
+button#noanim-tab-example-tab-seva  {
+    background: #ddd;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: #ddd;
+} */
+@media screen and (max-width: 768px) {
+    /* .table>tbody {
+        position: absolute;
+        vertical-align: inherit;
+    } */
+    /* div#root {
+        width: 0px ;
+    }*/
+}

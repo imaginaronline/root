@@ -1,0 +1,324 @@
+.activitesHeaderBody {
+    display: flex;
+    align-items: center;
+}
+
+.activitytitle{
+    margin-left: 10px;
+}
+.addnewdonationform {
+    padding: 50px 50px;
+}
+
+.donationlabel{
+font-size: 26px !important;
+font-weight: 600 !important;
+line-height: 40px !important;
+letter-spacing: 0em !important;
+text-align: left !important;
+
+}
+
+.donationinput {
+    background: rgba(231, 231, 231, 1) !important;
+    color: black !important;
+    flex-direction: row-reverse;
+}
+
+.admincards{
+    padding: 70px 0px;
+}
+.activeDonationCard{
+    width: fit-content !important;
+}
+.activeDonationCard img{
+    width: 170px;;
+}
+/* 
+.activeDonationRow{
+
+} */
+.newsevacard{
+    margin-top: 10% !important;
+}
+.activeDonationCol{
+    display: flex;
+    justify-content: center;
+}
+
+.activedonationcards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.savbtn {
+    display: flex;
+    justify-content: center;
+    background: rgba(39, 94, 144, 1);
+    padding: 10px 90px;
+    border-color: rgba(39, 94, 144, 1);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+}
+
+.savbtn button{
+    background: rgba(39, 94, 144, 1);
+    padding: 10px 100px !important;
+    border-color: rgba(39, 94, 144, 1);
+    /* float: left !important; */
+    /* margin-left: 80px !important; */
+}
+
+.admnistsavbtn {
+    display: flex;
+    justify-content: center;
+    background: rgba(39, 94, 144, 1);
+    padding: 10px 90px;
+    border-color: rgba(39, 94, 144, 1);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+}
+
+.festimgbody{
+    background:rgba(217, 217, 217, 1) !important;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.admimgbody{
+    background:rgba(217, 217, 217, 1) !important;
+    display: flex;
+    align-items: center;
+    border-radius: 20px; 
+    flex-direction: column;
+    padding: 50px 0px !important;
+}
+.admcardbody{
+    background:rgba(217, 217, 217, 1) !important;
+    padding: 50px !important;
+ 
+}
+
+.admcardrow{
+    display: flex;
+    align-items: center;
+}
+
+.festimg img{
+    width: 100% !important;
+}
+
+.festcard ,.admcard ,.admfiltersCard {
+    border:0px !important;
+}
+
+.festtitle{
+    margin-left: 30% !important;
+}
+
+.clckbtn{
+    --bs-btn-bg: rgba(50, 83, 98, 1) !important;
+    --bs-btn-border-color: rgba(50, 83, 98, 1) !important;
+    width: 180px;
+    border-radius: 20px !important;
+    margin-top: 20px;
+}
+
+.clcksavebtn{
+    --bs-btn-bg: #275e90 !important;
+    --bs-btn-border-color: #275e90 !important;
+    width: 180px;
+    border-radius: 5px !important;
+    margin-top: 20px;
+    float: right;
+}
+
+
+.calenderTextAdm {
+    text-align-last: center;
+    width: 130px !important;
+    height: 34px !important;
+    border-radius: 6px !important;
+    border: 1px solid #486369 !important;
+    z-index: 1;
+    font-size: 9px !important;
+}
+
+.calenderTextAdm.form-control {
+    font-size:12px !important;
+}
+
+.newinputadm {
+    width: 74% !important;
+    padding: 6px;
+    /* border: 1px solid #486369 !important; */
+    border-radius: 4px;
+    background-color: #efefef !important;
+}
+
+.nav-tabs {
+    overflow-x: auto !important;
+    overflow-y:hidden !important;
+    flex-wrap: nowrap !important;
+ }
+ .nav-tabs .nav-link {
+   white-space: nowrap !important;
+ }
+
+ .rangemile {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0px solid #486369;
+    padding: 12px;
+    border-radius: 8px;
+    background: #ededed;
+    
+}
+
+.festinpts {
+    display: flex;
+    align-items: center;
+    gap: 30px;}
+/* .form-group.titlinpt {
+    display: flex;
+    align-items: center;
+} */
+
+label.mangecatlabel {
+    font-size: 14px;
+    font-weight: 600;
+}
+.managesavebutton{
+    display: flex;
+    justify-content: center;
+}
+
+.previewdoncard{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.datepickinput{
+    display: grid;
+}
+
+.festivalforminputs.mt-4 {
+    padding: 0px 0px 0px 22%;
+}
+
+.milecheck {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.penlogoimg{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 110px;
+    top: 10px;
+}
+
+.clckproceedbtn{
+    background-color: rgba(231, 230, 230, 1) !important;
+    border: none !important;
+    border-radius: 30px !important;
+    font-weight: 600 !important;
+    color: rgb(0, 0, 0) !important;
+}
+@media screen and (max-width: 768px) {
+
+    .activedonationcards{
+        padding: 5px !important;
+    }
+    .addnewdonationform {
+        padding: 5px !important;
+    }
+    .festtitle{
+        margin-left: 20% !important;
+    }
+    
+  }
+
+
+
+  .ticketText{
+    background: rgba(217, 217, 217, 1) !important;;
+  }
+  .error{
+    color: red !important;
+  }
+
+  .nonfunctionaldatesul {
+    margin-top: 40px;
+    display: table;
+    width: 100%;
+    padding: 0;
+}
+
+  .nonfunctionaldatesli {
+    background: #5f5f5f;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    min-width: 100%;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.nonfunctionaldatesli span{
+    color: white;
+}
+
+.nonfunctionaldatesli img{
+    margin-right: 5px;
+}
+
+.nonfunctionalbtn{
+    margin-bottom: 30px;
+    display: table;
+    width: 100%;
+}
+
+  .backimg{
+    filter: invert(1);
+    margin-bottom: 20px;
+    width: 24px;
+  }
+
+  .addButtonParent{
+  float: right;
+  margin-top: 32px;
+  margin-right: 32px !important;
+}
+.addButtonDonation{
+    background: #4a6163;
+    color: antiquewhite;
+    border-radius: 10px;
+
+}
+.deleteDonationButton{
+    background: rgb(128, 19, 19);
+    color: white;
+    border-radius: 10px;
+
+}
+.activedonationcardsssss{
+    margin-top: 500px;
+}
+.editDonationButton{
+    background: #4a6163;
+    color: white;
+    border-radius: 10px;
+
+}

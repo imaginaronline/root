@@ -1,0 +1,132 @@
+
+.iskconLogoDiv{
+  width: 100%;
+  text-align: center;
+}
+.iskconLogoDiv img{
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 80%;
+}
+
+.login-form h2 {
+  text-align: center;
+}
+
+.loginLabel {
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 4px !important;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.loginInput {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+
+.loginInput:focus {
+  outline: none;
+}
+.form-control{
+  font-size: 16px !important;
+}
+.react-tel-input .form-control {
+  width: 100% !important;
+  border-radius: 10px !important;
+  padding: 8.5px 14px 8.5px 60px !important;
+}
+
+.loginSbtBtn {
+  width: 100%;
+  padding: 8px;
+  margin-top: 26px !important;
+  font-weight: 500;
+  font-size: 16px;
+  background: linear-gradient(90deg, rgba(13, 5, 104, 0.8) 1.8%, rgba(70, 43, 172, 0.8) 27.88%, rgba(149, 61, 163, 0.8) 51.41%, rgba(55, 82, 153, 0.8) 76.47%, rgba(36, 129, 130, 0.8) 100%);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.navLinks{
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 14px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.navLinks a{
+  margin-top: 0px;
+  width: fit-content;
+}
+.subnavLinks{
+  margin-top: 26px;
+}
+.alreadyUser{
+  font-size: 16px !important;
+  margin-top: 32px !important;
+}
+.signupNavLinks{
+  margin-top: 0px;
+}
+.orptag{
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+.areaLink {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.areaLink:hover {
+  color: #b929cfcc;
+}
+
+.errorText{
+  font-size: 14px;
+  color: red;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (min-width: 768px) {
+  .login-form {
+      width: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navLinks{
+    gap: 6px !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+  }
+}

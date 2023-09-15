@@ -1,0 +1,53 @@
+.headr{
+    padding: 40px;
+    color: white !important;
+    background-image: url(/src/assets/featureprogrambg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.choosep{
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 15px;
+    font-size: 18px;
+    color: black;
+    background: white;
+}
+.featuredProgramParagraph{
+    text-align: left !important;
+    font-weight: 500 !important;
+    font-size: 10px !important;
+}
+.choosecol{
+    display: flex;
+    justify-content: center;
+}
+.cardcolumn{
+    margin-top: 16px !important;
+}
+
+/* .cardcolumn{
+    width: 28% !important;
+} */
+
+.cardrow{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .headr {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .cardcolumn {
+        width: 100% !important;
+        padding-top: 20px;
+    }
+    .choosep{
+        font-size: 9px;
+    }
+}

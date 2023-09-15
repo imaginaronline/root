@@ -1,0 +1,54 @@
+
+.otp-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.otp-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.otp-input:focus {
+  outline: none;
+}
+
+.editIcon{
+  cursor: pointer;
+}
+.OtpPtag{
+  font-size: 13px !important;
+  margin-top: 4px !important;
+}
+.mobileNo{
+  color:orangered;
+  font-weight: 600;
+}
+.resendBtn{
+  display: inline-block;
+  color: #000000eb !important;
+  background: none !important;
+  width: 100%;
+  text-align: center;
+  margin-top: 0px !important;
+  cursor: pointer;
+}
+
+.loginSbtBtn {
+  width: 100%;
+  padding: 8px;
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  background: linear-gradient(90deg, rgba(13, 5, 104, 0.8) 1.8%, rgba(70, 43, 172, 0.8) 27.88%, rgba(149, 61, 163, 0.8) 51.41%, rgba(55, 82, 153, 0.8) 76.47%, rgba(36, 129, 130, 0.8) 100%);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+button:not(:last-child) {
+  margin-right: 8px;
+}

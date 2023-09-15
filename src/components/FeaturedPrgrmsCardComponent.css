@@ -1,0 +1,112 @@
+.featurecards {
+    border-radius: 15px !important;
+    overflow: hidden;
+}
+
+.featurecards h5 {
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.featureimg {
+    /* width: 73px; */
+    float: left;
+}
+
+.featureimg img {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cardtext {
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+button.tgbtn {
+    padding: 0px;
+    margin-left: 10px;
+}
+
+button.tgbtn img {
+    width: 30px;
+}
+
+.featurecardbody{
+    display: flex;
+    justify-content: center;
+}
+
+.calenderDateDiv{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.calendar-input{
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    /* 1B787B */
+    padding: 6px 0px;
+}
+.archaDetailsSubmit{
+    border-radius: 20px !important;
+    height: 3.7rem !important;
+}
+
+.archanaLabelsDiv {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+}
+.archanaRadio{
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    .featureimg {
+        width: 73px;
+        float: left;
+    }
+
+    .card-body p {
+        font-size: 11px;
+    }
+    .cardtext {
+        padding-top: 6px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .card-body p {
+        font-size: 10px;
+    }
+    .featureimg {
+        width: 73px !important;
+    }
+    
+    .cardtext {
+        float: revert;
+    }
+    
+    button.tgbtn {
+        margin-left: 0px;
+    }
+    .btnsgrp.mt-4 {
+        margin-left: 59px;
+    }
+    .cardtext {
+        padding-left: 20px;
+        padding-top:10px;
+    }
+    .featurecardbody{
+        display: block !important;
+    }
+  }

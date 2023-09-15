@@ -1,0 +1,86 @@
+/* App.css */
+.AppMenu {
+  display: flex;
+  /* overflow-x: hidden; */
+  background-color: #EDEDED;
+  border-radius: 20px;
+}
+
+.side-menu {
+  width: 166px;
+  background-color: #333;
+  color: white;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: left 0.3s;
+  padding-top: 20px;
+}
+
+.menuList {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh !important;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-menu li {
+  padding: 10px;
+}
+
+.main-content {
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-left: 178px;
+}
+.mainContentScreenDiv{
+  display: flex;
+  background-color: #fff;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .side-menu {
+    left: -250px;
+  }
+
+  .side-menu.open {
+    left: 0;
+  }
+
+  .menu-toggle {
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+  }
+
+  .main-content {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.plusButtonDiv {
+  width: 64% !important;
+  height: 48px !important;
+  background-color: transparent;
+  border: 1px solid black;
+  color: #000 !important;
+  border-radius: 8px !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}

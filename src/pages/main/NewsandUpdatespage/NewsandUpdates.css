@@ -1,0 +1,29 @@
+.isk_donation_cards_card {
+    padding: 2rem 1.5rem 2rem;
+    min-height: auto;
+}
+
+.evntdate {
+    font-weight: 500;
+    font-size: 18px;
+    color: #141996;
+}
+
+.evnttag {
+    font-weight: 500;
+    font-size: 18px;
+    color: #141996;
+    float: right;
+    padding-left: 20px;
+}
+
+.dateevnts {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.eventtext {
+    font-size: 16px;
+    padding-top: 20px;
+}

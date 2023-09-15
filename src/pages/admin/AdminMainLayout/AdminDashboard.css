@@ -1,0 +1,1224 @@
+
+.mainBackGr {
+    background-color: pink;
+}
+
+.divider {
+    width: 9px;
+    height: 39px !important;
+    background: hsla(202, 22%, 46%, 1);
+
+
+}
+
+.sideLineDashboard {
+    width: 9px;
+    height: 39px;
+    background: hsla(202, 22%, 46%, 1);
+}
+.dropdown-button {
+    background: #fff;
+    color: #3D3C3C;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 7px 40px;
+    border-radius: 10px;
+    border: 1px solid #BBB4B4;
+    box-shadow: 0px 4px 4px rgba(187, 180, 180, 1);
+}
+
+.overview {
+    width: 171px;
+    height: 54px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+
+}
+
+.todayEntireButton {
+    border-radius: 5px;
+    width: 175px;
+    height: 44px;
+}
+
+.todayButton {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+    font-size: 15.75px !important;
+    font-weight: 4500 !important;
+    font-family: Poppins !important;
+}
+
+.adminLeftContent {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.overviewRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.archanacircle{
+    position: relative;
+    display: flex;
+}
+/* 
+.LoginCounImg {
+    width: 22.315738677978516px;
+    height: 23.90972137451172px;
+}
+
+.LoginCount {
+    height: 22px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.five {
+    width: 15.523992538452148px;
+    height: 13.141753196716309px;
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.arrowFive {
+    display: flex;
+    background-color: rgb(185, 83, 83);
+    padding: 2px;
+}
+
+.fivehundered {
+    width: 64px;
+    height: 49px;
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    margin-left: 64px !important;
+} */
+
+.entireLogInImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.entireLogInFive {
+    display: flex;
+}
+
+.entireLogInImgAndFive {
+    display: flex;
+    flex-direction: column;
+}
+.eireLogInImgAndFive{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.LogInCardData {
+    background: white;
+    padding: 11px;
+    border-radius: 25px;
+    border: 3px solid #0B838D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    box-shadow: 0px 4px 4px rgba(187, 180, 180, 1);
+}
+.imagebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.imagebox p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mainDashboardContent {
+    background: #ededed;
+    padding: 18px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.dayRevenue {
+    width: 99px;
+    height: 22px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.eightThousand {
+    width: 94px;
+    height: 49px;
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 45px !important;
+}
+
+
+.totalCollection {
+    width: 176px;
+    height: 33px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.collectionNumber {
+    width: 140px;
+    height: 54px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.totalUsers {
+    width: 125px;
+    height: 33px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.usersNumber {
+    width: 145px;
+    height: 54px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.divider {
+    width: 3px;
+    height: 99px;
+}
+
+.entireOverViewSecondCard {
+    margin-top: 80px !important;
+    margin-bottom: 60px !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+    border: 3px solid #0B838D;
+    height: 100px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(187, 180, 180, 1);
+}
+.collections{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 10px; */
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.twoCollections {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.allContent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.topCategory {
+    width: 103px;
+    height: 22px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.annadhana {
+    width: 155px;
+    height: 36px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.topPayChannel {
+    width: 128px;
+    height: 22px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.onlinePay {
+    width: 130px;
+    height: 36px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.entireLogAnnaInImg {
+    display: flex;
+
+
+}
+
+.bothContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bothContents {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.todayssButton,
+.todayEntireButtongr {
+    display: none !important;
+}
+.enreLogAnnaInImg{
+    display: contents;
+} 
+
+
+/* Media Queries */
+ @media (max-width:768px) {
+    .divider {
+        display: none !important;
+    }
+
+    .dhvhdbj {
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 0px !important;
+    }
+
+    .LogInCardData {
+        width: 100% !important;
+    }
+
+    .overview {
+        font-size: 20px;
+    }
+
+    .todayButton {
+        font-size: 12px;
+    }
+
+    .totalEntireCards {
+        gap: 12px;
+    }
+
+    .collectionNumber,
+    .usersNumber {
+        font-size: 18px;
+    }
+
+    .totalUsers,
+    .totalCollection {
+        font-size: 16px;
+    }
+
+    .allContent {
+        padding-top: 0px !important;
+        flex-direction: column;
+        padding-left: 74px !important;
+    }
+    .twoCollections {
+     width: 275px;
+        gap: 0px;
+    }
+    .overviewRow {
+   
+        justify-content: center;
+    }
+    
+} 
+ 
+@media screen and (min-width:769px) and (max-width:912px) {
+    .totalEntireCards {
+        flex-direction: column;
+        gap: 20px 10px;
+        align-items: center;
+    }
+
+    .LogInCardData {
+        width: 100% !important;
+    }
+
+    .collectionNumber,
+    .usersNumber {
+        font-size: 26px;
+    }
+    .twoCollections {
+      
+        gap: 3px;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:2000px) {
+    .overview {
+        width: 260px;
+    }
+}
+.entireLogAnnaInImg {
+    display: flex; 
+    justify-content: center;
+}
+
+
+
+.annaDhanaDonation {
+    font-family: Poppins;
+    font-size: 22px !important;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* margin-left: 15px !important; */
+}
+
+.donationSubContentDiv {
+    top: 130px;
+}
+
+.donorsDonation {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.donationValue {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.donorDonationValues {
+    display: flex;
+    gap: 10px;
+}
+
+.donationAmountValue {
+    width: 62px;
+    height: 27px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.reportDonationButton {
+    width: 100% !important;
+    border-radius: 10px;
+    background: hsla(199, 32%, 29%, 1);
+    color: white !important;
+}
+
+.totalcard {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.donationbox{
+    border-radius: 20px;
+    background: white;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 8px 8px 8px rgba(187, 180, 180, 1);
+}
+
+.cardTopIMg {
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 50% !important;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    z-index: 1 !important;
+    border: 7px solid hsla(144, 25%, 44%, 1) !important;
+    transform: translate(-50%, 0px);
+    text-align: center;
+    overflow: hidden;
+}
+
+.riceIMg {
+    width: 62px !important;
+    height: 62px !important;
+}
+
+/* .cardMainDiv {
+    padding-left: 37px;
+
+} */
+
+.donationCardCarsoule {
+    width: 277px !important;
+    height: 320px !important;
+    border-radius: 25px !important;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.dhwiuwhdiu {
+    display: flex;
+    justify-content: center;
+}
+
+.previouButton {
+   
+    position: absolute;
+    left: 0px !important;
+    top: 40%;
+    display: none;
+}
+
+.nextButton {
+   
+    position: absolute;
+    right: 0px !important;
+    top: 40%;
+    display: none;
+} */
+
+
+/* .plusButton {
+    width: 196px !important;
+    height: 53px;
+    border-radius: 8px;
+    border: 1px solid black !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff !important;
+} */
+
+
+.plusSize {
+    width: 26px;
+    height: 54px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: hsla(0, 0%, 0%, 1);
+}
+
+.reportSize {
+    /* width: 145px;
+    height: 27px; */
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 1);
+}
+
+.reportButton {
+    width: 230px !important;
+    height: 40px;
+    border-radius: 10px;
+    background: hsla(199, 32%, 29%, 1);
+}
+
+.twoEllipse {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    position: relative;
+
+}
+
+.plusContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+}
+
+.allArchanaCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px !important;
+}
+
+.allArchanaCard {
+    /* width: 100%; */
+    height: 285px;
+    border-radius: 30px;
+    border: 3px solid white;
+    background: white;
+    margin: 0px 0px !important;
+    box-shadow: 0px 4px 4px rgba(187, 180, 180, 1);
+    margin-bottom: 60px;
+}
+
+.todayCount {
+    width: 75px;
+    height: 60px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: absolute;
+    top: 26px;
+    left: 74px;
+}
+
+.fourteen {
+    width: 40px;
+    height: 60px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.forTomorrow {
+    width: 104px;
+    height: 60px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 52px;
+}
+
+
+.eight {
+    width: 52px;
+    height: 60px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+}
+
+.todayCentre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    left: 65px !important;
+    color: white;
+}
+
+.todayCentrer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    left: 294px !important;
+    color: white;
+}
+
+@media (max-width:766px) {
+    .allArchanaCard {
+        flex-direction: column !important;
+        gap: 20px;
+        height: 570px !important;
+
+    }
+
+    .twoEllipse {
+        flex-direction: column !important;
+        gap: 0px !important;
+
+    }
+
+    .plusContent {
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .todayCentre {
+
+        left: 80px !important;
+        top: 36px;
+
+    }
+
+    .todayCentrer {
+        left: 64px !important;
+        top: 242px;
+    }
+
+    .isconLogo {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:912px) {
+    .twoEllipse {
+        gap: 0px !important;
+
+    }
+
+    .allArchanaCard {
+        justify-content: center !important;
+
+    }
+
+    .todayCentrer {
+        left: 250px !important;
+    }
+
+    .plusButton {
+        width: 157px;
+
+    }
+
+    .reportButton {
+        width: 190px !important;
+        height: 40px;
+        border-radius: 10px;
+        background: hsla(199, 32%, 29%, 1);
+    }
+    .fivehundered{
+        margin-left: 290px !important;
+    }
+
+} 
+
+
+
+
+.side-menu {
+    width: 10%;
+    height: 100vh;
+    background: #0B0B0B;
+}
+.menuList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh !important;
+    margin-top: 20px;
+}
+.powerLogo{
+    margin-top: 110px !important;
+}
+.menLogo{
+    width: 100% !important;
+}
+.homeLogo,.penLogo,.messageLogo,.ReportsLogo,.powerLogo {
+    width: 90% !important;
+}
+
+.isconLogoImg {
+    width: 100%;
+    background: #fff;
+    padding: 10px 0px;
+    position: fixed;
+    z-index: 3;
+}
+ .isconLogo{
+    margin-left: 1%;   
+} 
+
+.mainSideBar{
+    /* width: 20%; */
+    height: 100vh;
+    background:#4A6163;
+    float: right;
+    /* margin-right: 1%; */
+}
+.send,.add,.calen,.notify{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.send{
+    width: 76px;
+    line-height: 12px;
+    text-align: center; 
+}
+.add{
+    width: 76px;
+    line-height: 12px;
+    text-align: center; 
+}
+.calen{
+    width: 76px;
+    text-align: center;
+    line-height: 12px;
+}
+.messageClor,.addClor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    width: 110px;
+    height: 110px;
+    /* padding: 8px 0px; */
+    border-radius: 15px;
+}
+
+.alignTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 18px;
+}
+.alignLastTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.notify{
+    width: 76px;
+    line-height: 12px;
+    text-align: center;
+}
+.allIMg{
+    width: 43px;
+    height: 38px;
+}
+.sendMessage,.addEntry{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.eniteSideCardImgs{
+    width: 84%;
+    height: 190px !important;
+    margin-left: 9%;
+    margin-top: 80px;
+    background: rgba(194, 191, 191, 0.5) !important;
+    border-radius: 25px !important;
+}
+
+@media screen and (max-width:768px){
+    .isconLogo{
+        margin-left: 0%; 
+    } 
+   
+}
+@media screen and (max-width:1024px){
+    .menLogo{
+        width: 45px !important;
+    }
+    .homeLogo,.penLogo,.messageLogo,.ReportsLogo,.powerLogo{
+        width: 40px !important;
+    }
+    .messageLogo{
+        width: 30px !important;
+    }
+    .alignTwo,.alignLastTwo{
+        gap: 5px;
+    }
+    .alignTwo{
+        margin-top: 10px;
+    }
+    .alignLastTwo{
+        margin-top: 8px;
+    }
+    .eniteSideCardImgs {
+        width: 70%;
+        height: 168px !important;
+        margin-left: 15%;
+        margin-top: 50px;
+      
+    }
+}
+
+
+
+/* right sidenav styles */
+
+  .admincustommenu {
+    position: absolute;
+    width: 20%;
+    right: 0px;
+    overflow: hidden;
+}
+
+  .admincustommenu .box_leftbar.deskMenu {
+    left: 0 !important;
+    z-index: 110;
+    background: #fff;
+    transition: all 0.5s ease;
+  }
+
+  .admintoglbtn {
+    display: block !important;
+    /* position: absolute; */
+    width: 36px;
+    border: none;
+    background: none;
+    top: 20px;
+    z-index: 110;
+  }
+
+  .admintogleimg {
+    width: 24px;
+  }
+
+  /* admin layout new */
+
+.admleftnav{
+    width: 10.333333% !important;
+}
+.admmainpagecontent{
+    width: 89.666667% !important;
+}
+.admmain {
+    width: 100%;
+    padding-right: 25px;
+    margin-top: 108px;
+}
+.admrightnav {
+    width: 350px;
+    /* position: absolute; */
+    right: 9px;
+    top: 0;
+    background: #4A6163;
+    min-height: 300vh;
+    transition: all 0.3s ease-in;
+    border-radius: 20px;
+    position: fixed;
+    margin-top: 102px;
+}
+
+.admrightnav.show{
+    right: -240px;
+}
+
+.maincontentarea {
+    width: 100%;
+    padding-right: 350px;
+    position: relative;
+    /* overflow: hidden; */
+    transition: all 0.3s ease-in;
+    margin-right: 12px;
+
+}
+
+.maincontentarea.show{
+    padding-right: 100px;
+}
+
+.donataioancard{
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 20px !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 30px;    
+}
+
+@media screen and (min-width:1290px) and (max-width:3000px){
+    .eniteSideCardImgs {
+        width: 82%;
+        height: 266px !important;
+        /* margin-left: 20%; */
+       
+    }
+  
+}
+
+.ovwrviewcard{
+    padding: 0px 9px !important;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 5px;
+    overflow: auto;
+    flex-grow: 1;
+    height: 100vh;
+    background-color: #ededed;
+  }
+  
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 8px 12px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .box-container {
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+    .donationbox{
+        width: 90% !important;
+        margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .admrightnav {
+     display: none !important;
+    }
+    .admmain {
+        padding-right: 0px !important;
+    }
+    .maincontentarea {
+        padding-right: 0px !important;
+    }
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 1280px) {
+    .content {
+      flex-grow: 1;
+      margin-right: 0px;
+    }
+    .allArchanaCard {
+        padding: 0px !important;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .content {
+      flex-grow: 1;
+      margin-right: 0px;
+    }
+  }
+  
+  
+  .right-bar {
+    display: none;
+    background-color: #fff;
+    height: 100vh;
+    width: 60px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      display: flex;
+    }
+  
+    .sidebar.open {
+      width: 250px;
+    }
+  
+    .sidebar button {
+      display: block;
+    }
+  
+    .sidebar ul {
+      display: none;
+    }
+  
+    .sidebar.open ul {
+      display: block;
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    .sidebar {
+      display: flex;
+      width: 250px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .right-bar {
+      display: block;
+      width: 60px;
+    }
+  
+    .right-bar:hover {
+      width: 200px;
+    }
+  }
+
+
+  .sidebar {
+    display: none;
+    flex-direction: column;
+    background-color: #eee;
+    width: 250px;
+    transition: all 0.3s;
+    height: 100vh;
+  }
+  
+  .sidebar ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .sidebar li {
+    padding: 10px 20px;
+  }
+  
+  .sidebar button {
+    background: none;
+    border: none;
+    font-size: 30px;
+    display: none;
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .header {
+    background-color: blue;    
+    height: 150px;
+  }
+  
+  .content-area {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .admincontainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+
+
+
+  .row>* {
+    flex-shrink: 0;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+
+
